@@ -1,0 +1,31 @@
+{
+  "name": "blackbonjour/namespace-handler",
+  "description": "Foo Bar",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Erick Dyck",
+      "email": "info@erickdyck.de"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "*",
+    "phpmd/phpmd": "*",
+    "phpstan/phpstan": "*",
+    "phpunit/phpunit": "12.*",
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "BlackBonjour\\NamespaceHandler\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BlackBonjourTest\\NamespaceHandler\\": "tests"
+    }
+  }
+}
