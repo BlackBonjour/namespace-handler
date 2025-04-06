@@ -2,6 +2,7 @@
   "name": "blackbonjour/namespace-handler",
   "description": "Foo Bar",
   "minimum-stability": "stable",
+  "license": "MIT",
   "authors": [
     {
       "name": "Erick Dyck",
