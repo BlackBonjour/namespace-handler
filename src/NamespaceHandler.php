@@ -44,7 +44,7 @@ readonly class NamespaceHandler
     public function getDirectory(string $namespace): ?string
     {
         $autoloadMap = $this->classLoader->getPrefixesPsr4();
-        $namespace = trim($namespace, '\\');
+        $namespace = trim($namespace, '\\') . '\\';
 
         foreach ($autoloadMap as $prefix => $directories) {
             if (str_starts_with($namespace, $prefix)) {
